@@ -1,0 +1,88 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #292929;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+html, body {
+  background-color: #000000;
+background-image: url('https://cdn.glitch.me/8a30a3f7-05ac-4869-ac3c-2ddd722ed1d5/background.gif?v=1670376938053');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+body, html {
+  color: #bee9fe;
+  text-shadow:
+      0 0 7px #bec5fe,
+      0 0 10px #bec5fe,
+      0 0 21px #bec5fe,
+      0 0 42px #2f4b83,
+      0 0 82px #2d4fd7,
+      0 0 92px #2d4fd7,
+      0 0 102px #2d4fd7,
+      0 0 151px #2d4fd7;
+}
+
+h1 {
+  font-size: 50px
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+.topbar {
+  height: 50px;
+  width: 99%;
+  background-color:#4c5e61;
+  opacity: 1;
+  position: fixed;
+  padding-top: 10px;
+}
+
+
+.topbar a {
+  font-size: 30px;
+  border: 5px solid white;
+  color: white;
+  background-color: #4c5e61;
+  border-radius: 10px 10px;
+  opacity: 1;
+}
+
+.gamesbar {
+  height: 10%;
+  width: 99%;
+  background-color: grey;
+  position: fixed;
+  top: 90%;
+  padding-top: 10px;
+  opacity: 0;
+  border-radius: 20px 20px;
+}
+
+.padding {
+  padding: 0 20% 0 0;
+}
+
+.padding2 {
+  padding: 0 0 0 20%;
+}
+
+img {
+  border-radius: 30px;
+}
+
+.fullscreen {
+  width: 100%;
+  height: 100%;
+}
